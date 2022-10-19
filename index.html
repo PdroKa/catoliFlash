@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!--dizer que o site e Pt-br-->
+
+  <head>
+    <title>CatoliFlash</title>
+    <link href="js/script.js" rel="script" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <!--UTF Para aceitar pontuação-->
+    <!--Link para fontes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="gradiente">
+    <div class="container-principal">
+      <!--Ccontainer da esquerda DIV-->
+      <div class="container centralizar">
+        <div class="total-esquerda">
+          <h1 class="principal-logo">CatoliFlash</h1>
+          <h2 class="principal-titulo">
+            Aprenda de forma rápida simples e divertida sobre o Catolicismo
+          </h2>
+          <p class="principal-descricao">
+            No cartão você encontrará palavras e explicações encontradas no
+            catecismo da igreja catolica. Aproveite para testar seus
+            conhecimentos.
+          </p>
+
+          <div class="botoes">
+            <button class="botao customizacao" id="proxima">
+              Próxima pergunta
+            </button>
+
+            <button class="botao customizacao" id="revelar">
+              Revelar resposta
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--container da direita-->
+      <div id="cardContainer" class="container centralizar">
+        <!--Card-->
+        <div class="card">
+          <!--Card de pergunta-->
+          <div class="card_pergunta centralizar">
+            <h1 class="card_titulo">
+              Oque o catecismo diz ?
+            </h1>
+          </div>
+          <!--Card de resposta-->
+          <div id="Resposta" class="card_resposta blur">
+            <p>Resposta sobre o catecismo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+  <footer>Kauan Reis</footer>
+</html>
